@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping("hello/{name}")
     public ResponseEntity<String> sayHelloToDevelper(@PathVariable String name){
-        return ResponseEntity.ok("Hello: " + name + " DevOps!!");
+        return ResponseEntity.ok("Hello: " + name + " DevOps!!!");
 
     }
 }
