@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>jekins-exampls</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>jekins-exampls</name>
 	<description>Demo to CI/CD with jeking</description>
 	<url/>
@@ -49,6 +48,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>jekins-exampls</finalName>
 	</build>
-
 </project>
